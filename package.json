@@ -4,7 +4,7 @@
   "type": "module",
   "description": "project Brain Games [Hexlet]",
   "main": "index.js",
-  "bin" : {
+  "bin": {
     "brain-games": "bin/brain-games.js"
   },
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nosaxa/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/nosaxa/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/nosaxa/frontend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }

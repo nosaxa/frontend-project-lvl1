@@ -8,5 +8,4 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      name: make lint
       run: make lint

@@ -8,4 +8,5 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      run: make lint
+      - run: echo 'Hello!? Just testing'
+      - run: make lint

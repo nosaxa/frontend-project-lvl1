@@ -10,4 +10,4 @@ rules:
   no-console: "off"
   import/extensions: "off"
   quotes: ["error", "double", { "allowTemplateLiterals": true }]
-  comma-dan: ["error", "never"]
+  comma-da: ["error", "never"]

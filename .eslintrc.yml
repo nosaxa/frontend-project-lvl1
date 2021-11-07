@@ -9,4 +9,5 @@ parserOptions:
 rules:
   no-console: "off"
   import/extensions: "off"
-  quotes: ["error", "double"]
+  quotes: ["error", "double", { "allowTemplateLiterals": true }]
+  comma-dan: ["error", "never"]

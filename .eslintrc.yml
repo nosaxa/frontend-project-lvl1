@@ -11,3 +11,4 @@ rules:
   import/extensions: "off"
   quotes: ["error", "double", { "allowTemplateLiterals": true }]
   comma-dangle: ["error", "only-multiline"]
+  arrow-body-style: "off"

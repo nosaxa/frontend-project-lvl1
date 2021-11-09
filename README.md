@@ -4,4 +4,15 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 ![Eslint](https://github.com/nosaxa/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)
 
-https://asciinema.org/a/r4Iitet2KNWqldhGyw3nlysrb
+---
+
+## Brain Games Usage
+
+- Installation
+  [![asciicast](https://asciinema.org/a/r4Iitet2KNWqldhGyw3nlysrb.svg)](https://asciinema.org/a/r4Iitet2KNWqldhGyw3nlysrb)
+
+- Brain-even
+  [![asciicast](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4.svg)](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4)
+
+- Brain-calc
+  [![asciicast](https://asciinema.org/a/q45TCcXqUiO8bwNepuZ2FW39f.svg)](https://asciinema.org/a/q45TCcXqUiO8bwNepuZ2FW39f)

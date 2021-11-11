@@ -24,6 +24,7 @@ const progressionGameData = () => {
   arr[hiddenIndex] = "...";
   const question = arr.join(" ");
   const answer = String(hiddenNumber);
+
   return [question, answer];
 };
 

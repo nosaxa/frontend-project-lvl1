@@ -11,7 +11,7 @@ const primeGameData = () => {
       dividers.push(i);
     }
   }
-  const isPrime = dividers.length > 2 ? "no" : "yes";
+  const isPrime = dividers.length === 2 ? "yes" : "no";
   const question = number;
   const answer = isPrime;
 

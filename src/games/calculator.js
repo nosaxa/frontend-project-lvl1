@@ -18,10 +18,10 @@ const calc = (num1, num2, operator) => {
 
 const calcGameData = () => {
   const operators = ["+", "*", "-"];
-  const maxIndex = operators.length - 1;
+  const lastIndex = operators.length - 1;
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();
-  const operation = operators[getRandomNumber(0, maxIndex)];
+  const operation = operators[getRandomNumber(0, lastIndex)];
   const question = `${number1} ${operation} ${number2}`;
   const answer = String(calc(number1, number2, operation));
 

@@ -1,15 +1,15 @@
-import startGame from "../index.js";
-import getRandomNumber from "../helpers.js";
+import startGame from '../index.js';
+import getRandomNumber from '../helpers.js';
 
-const message = "What is the result of the expression?";
+const message = 'What is the result of the expression?';
 
 const calc = (num1, num2, operator) => {
   switch (operator) {
-    case "+":
+    case '+':
       return num1 + num2;
-    case "-":
+    case '-':
       return num1 - num2;
-    case "*":
+    case '*':
       return num1 * num2;
     default:
       return null;
@@ -17,7 +17,7 @@ const calc = (num1, num2, operator) => {
 };
 
 const calcGameData = () => {
-  const operators = ["+", "*", "-"];
+  const operators = ['+', '*', '-'];
   const lastIndex = operators.length - 1;
   const number1 = getRandomNumber();
   const number2 = getRandomNumber();

@@ -1,7 +1,7 @@
-import startGame from "../index.js";
-import getRandomNumber from "../helpers.js";
+import startGame from '../index.js';
+import getRandomNumber from '../helpers.js';
 
-const message = `Find the greatest common divisor of given numbers.`;
+const message = 'Find the greatest common divisor of given numbers.';
 
 const biggestDivider = (num1, num2) => {
   const biggestNumber = num1 > num2 ? num1 : num2;

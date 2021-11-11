@@ -1,7 +1,7 @@
-import playGame from "../index.js";
-import getRandomNumber from "../helpers.js";
+import playGame from '../index.js';
+import getRandomNumber from '../helpers.js';
 
-const message = `Answer "yes" if given number is prime. Otherwise answer "no".`;
+const message = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const primeGameData = () => {
   const number = getRandomNumber(1, 20);
@@ -11,7 +11,7 @@ const primeGameData = () => {
       dividers.push(i);
     }
   }
-  const isPrime = dividers.length === 2 ? "yes" : "no";
+  const isPrime = dividers.length === 2 ? 'yes' : 'no';
   const question = number;
   const answer = isPrime;
 

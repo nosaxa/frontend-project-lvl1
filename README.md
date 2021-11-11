@@ -1,14 +1,10 @@
-### Hexlet tests and linter status:
-
 [![Actions Status](https://github.com/nosaxa/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/nosaxa/frontend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
 ![Eslint](https://github.com/nosaxa/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)
 
----
-
 ## What is this?
 
-It is five mathematical games which let users check their mathematical and logical skills and find the gaps in their knowledge
+This is five mathematical games kit which let users check their mathematical and logical skills to find gaps in knowledge
 
 ## How to start using the program:
 
@@ -21,7 +17,7 @@ It is five mathematical games which let users check their mathematical and logic
 ```
 - Brain-calc: show an expression and ask the result
 - Brain-even: show a number and ask if it is even?
-- Brain-gcd: show two numbers and ask for a common gratest divisor
+- Brain-gcd: show two numbers and ask a common gratest divisor
 - Brain-prime: show a number and ask if it is prime
 - Brain-progression: show progression, hide one number and ask it
 ```

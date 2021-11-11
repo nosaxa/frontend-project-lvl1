@@ -19,7 +19,7 @@ const randomProgression = () => {
 const progressionGameData = () => {
   const arr = randomProgression();
   const lastIndex = arr.length - 1;
-  const hiddenIndex = getRandomNumber(0, lastIndex);
+  const hiddenIndex = getRandomNumber(1, lastIndex);
   const hiddenNumber = arr[hiddenIndex];
   arr[hiddenIndex] = "...";
   const question = arr.join(" ");

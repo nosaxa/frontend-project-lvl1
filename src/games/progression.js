@@ -21,9 +21,9 @@ const progressionGameData = () => {
   const lastIndex = arr.length - 1;
   const hiddenIndex = getRandomNumber(1, lastIndex);
   const hiddenNumber = arr[hiddenIndex];
-  arr[hiddenIndex] = "...";
-  // const question = arr.join(" ");
-  const question = arr.join(" ").split(",");
+  arr[hiddenIndex] = "..";
+  const question = arr.join(" ");
+  // const question = arr.join(" ").split(",");
   const answer = String(hiddenNumber);
 
   return [question, answer];

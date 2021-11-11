@@ -6,6 +6,26 @@
 
 ---
 
+## What is this?
+
+It is five mathematical games which let users check their mathematical and logical skills and find the gaps in their knowledge
+
+## How to start using the program:
+
+1. Make sure, that you have installed node and npm on you computer. You can check it by typing following commands: `node -v`, `npm -v`
+2. Clone the program on you local computer from this repository: `git clone git@github.com:nosaxa/frontend-project-lvl1.git terminal-games`
+3. Go to the _terminal games_ directory: `cd terminal-games`
+4. Install all dependencies: `make install`
+5. Run the games by typing their names: `brain-calc`, `brain-even`, `brain-gcd`, `brain-prime`, `brain-progression`
+
+```
+- Brain-calc: show an expression and ask the result
+- Brain-even: show a number and ask if it is even?
+- Brain-gcd: show two numbers and ask for a common gratest divisor
+- Brain-prime: show a number and ask if it is prime
+- Brain-progression: show progression, hide one number and ask it
+```
+
 ## Brain Games Usage
 
 - Installation

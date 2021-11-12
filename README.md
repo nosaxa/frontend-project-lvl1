@@ -1,5 +1,5 @@
 [![Actions Status](https://github.com/nosaxa/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/nosaxa/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/nosaxa/frontend-project-lvl1/maintainability)
 ![Eslint](https://github.com/nosaxa/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)
 
 ## What is this?
@@ -25,7 +25,7 @@ This is five mathematical games kit which let users check their mathematical and
 ## Brain Games Usage
 
 - Installation
-  [![asciicast](https://asciinema.org/a/r4Iitet2KNWqldhGyw3nlysrb.svg)](https://asciinema.org/a/r4Iitet2KNWqldhGyw3nlysrb)
+  [![asciicast](https://asciinema.org/a/E5dbu4U4iWqKfeiNb1NeyZ24p.svg)](https://asciinema.org/a/E5dbu4U4iWqKfeiNb1NeyZ24p)
 
 - Brain-even
   [![asciicast](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4.svg)](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4)

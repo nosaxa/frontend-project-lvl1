@@ -1,13 +1,13 @@
-import startGame from '../index.js';
+import playGame from '../index.js';
 import getRandomNumber from '../helpers.js';
 
 const message = 'What number is missing in the progression?';
 
-const randomProgression = () => {
+const getRandomProgression = (getRandom) => {
   const progression = [];
-  const progressionLength = getRandomNumber(5, 10);
-  const sequence = getRandomNumber(2, 5);
-  let number = getRandomNumber(1, 100);
+  const progressionLength = getRandom(5, 10);
+  const sequence = getRandom(2, 5);
+  let number = getRandom(1, 100);
 
   for (let i = 0; i < progressionLength; i += 1) {
     number += sequence;
@@ -16,18 +16,18 @@ const randomProgression = () => {
   return progression;
 };
 
-const progressionGameData = () => {
-  const arr = randomProgression();
-  const lastIndex = arr.length - 1;
+const getGameData = () => {
+  const newProgression = getRandomProgression(getRandomNumber);
+  const lastIndex = newProgression.length - 1;
   const hiddenIndex = getRandomNumber(1, lastIndex);
-  const hiddenNumber = arr[hiddenIndex];
-  arr[hiddenIndex] = '..';
-  const question = arr.join(' ');
+  const hiddenNumber = newProgression[hiddenIndex];
+  newProgression[hiddenIndex] = '..';
+  const question = newProgression.join(' ');
   const answer = String(hiddenNumber);
 
   return [question, answer];
 };
 
-const progression = () => startGame(message, progressionGameData);
+const progression = () => playGame(message, getGameData);
 
 export default progression;

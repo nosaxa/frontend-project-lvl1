@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import playGame from '../index.js';
 import getRandomNumber from '../helpers.js';
 
 const message = 'What is the result of the expression?';
@@ -16,7 +16,7 @@ const calc = (num1, num2, operator) => {
   }
 };
 
-const calcGameData = () => {
+const getGameData = () => {
   const operators = ['+', '*', '-'];
   const lastIndex = operators.length - 1;
   const number1 = getRandomNumber(1, 10);
@@ -28,6 +28,6 @@ const calcGameData = () => {
   return [question, answer];
 };
 
-const calculator = () => startGame(message, calcGameData);
+const calculator = () => playGame(message, getGameData);
 
 export default calculator;

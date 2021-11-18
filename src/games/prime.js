@@ -3,21 +3,21 @@ import getRandomNumber from '../helpers.js';
 
 const message = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const primeGameData = () => {
-  const number = getRandomNumber(1, 20);
-  const dividers = [];
-  for (let i = 1; i <= number; i += 1) {
-    if (number % i === 0) {
-      dividers.push(i);
-    }
+const isPrime = (number) => {
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) return false;
   }
-  const isPrime = dividers.length === 2 ? 'yes' : 'no';
+  return true;
+};
+
+const getGameData = () => {
+  const number = getRandomNumber(1, 20);
   const question = number;
-  const answer = isPrime;
+  const answer = isPrime(number) ? 'yes' : 'no';
 
   return [question, answer];
 };
 
-const prime = () => playGame(message, primeGameData);
+const prime = () => playGame(message, getGameData);
 
 export default prime;

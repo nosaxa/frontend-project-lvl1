@@ -3,21 +3,22 @@ import getRandomNumber from '../helpers.js';
 
 const message = 'What number is missing in the progression?';
 
-const getRandomProgression = (getRandom) => {
+const getRandomProgression = (firstItem, sequence, length) => {
   const progression = [];
-  const progressionLength = getRandom(5, 10);
-  const sequence = getRandom(2, 5);
-  let number = getRandom(1, 100);
-
-  for (let i = 0; i < progressionLength; i += 1) {
-    number += sequence;
-    progression.push(number);
+  let step = firstItem;
+  for (let i = 0; i < length; i += 1) {
+    progression.push(step);
+    step += sequence;
   }
   return progression;
 };
 
 const getGameData = () => {
-  const newProgression = getRandomProgression(getRandomNumber);
+  const newProgression = getRandomProgression(
+    getRandomNumber(1, 100),
+    getRandomNumber(3, 8),
+    getRandomNumber(5, 10),
+  );
   const lastIndex = newProgression.length - 1;
   const hiddenIndex = getRandomNumber(1, lastIndex);
   const hiddenNumber = newProgression[hiddenIndex];

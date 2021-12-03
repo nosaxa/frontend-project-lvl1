@@ -24,20 +24,27 @@ This is five games' kit which let users check their mathematical and logical ski
 
 ## Brain Games Usage
 
-- Installation
+
+### Installation ###
+ 
   [![asciicast](https://asciinema.org/a/E5dbu4U4iWqKfeiNb1NeyZ24p.svg)](https://asciinema.org/a/E5dbu4U4iWqKfeiNb1NeyZ24p)
 
-- Brain-even
+### Brain-even ###
+ 
   [![asciicast](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4.svg)](https://asciinema.org/a/wValdJGuLZhaGmYDTCfnq0ai4)
 
-- Brain-calc
+### Brain-calc ###
+
   [![asciicast](https://asciinema.org/a/q45TCcXqUiO8bwNepuZ2FW39f.svg)](https://asciinema.org/a/q45TCcXqUiO8bwNepuZ2FW39f)
 
-- Brain-gcd
+### Brain-gcd ###
+
   [![asciicast](https://asciinema.org/a/r9aPa1sIO6nf6zavhXuVY3hyF.svg)](https://asciinema.org/a/r9aPa1sIO6nf6zavhXuVY3hyF)
 
-- Brain-progression
+### Brain-progression ###
+
   [![asciicast](https://asciinema.org/a/RS0qJbhpCqNeXbrTRRqxKdIdr.svg)](https://asciinema.org/a/RS0qJbhpCqNeXbrTRRqxKdIdr)
 
-- Brain-prime
+### Brain-prime ###
+
   [![asciicast](https://asciinema.org/a/qqFPAKAEW52oJFP00g8pOGBJZ.svg)](https://asciinema.org/a/qqFPAKAEW52oJFP00g8pOGBJZ)

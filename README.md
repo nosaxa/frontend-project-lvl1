@@ -12,7 +12,8 @@ This is five games' kit which let users check their mathematical and logical ski
 2. Clone the program on you local computer from this repository: `git clone git@github.com:nosaxa/frontend-project-lvl1.git terminal-games`
 3. Go to the _terminal games_ directory: `cd terminal-games`
 4. Install all dependencies: `make install`
-5. Run games by typing their names: `brain-calc`, `brain-even`, `brain-gcd`, `brain-prime`, `brain-progression`
+5. Make binaries links in system `sudo npm link`
+6. Run games by typing their names: `brain-calc`, `brain-even`, `brain-gcd`, `brain-prime`, `brain-progression`
 
 ```
 - Brain-calc: display an expression and ask the result
